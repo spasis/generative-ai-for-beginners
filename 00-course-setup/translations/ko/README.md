@@ -64,3 +64,31 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
+문제가 발생하면 콘다(conda) 환경 만들기에 대한 이 [링크](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html?WT.mc_id=academic-105485-koreyst)를 참조하세요.
+
+### Visual Studio Code (w/ Python Extension) 사용
+
+아마도 본 강좌를 가장 잘 활용하는 방법은 [Python Extention](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-105485-koreyst)이 포함된 [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-105485-koreyst)를 사용하는 것입니다.
+
+> **주의사항**: VS Code에서 디렉터리를 복제하고 열면 자동으로 Python 확장 프로그램을 설치하도록 제안합니다. 또한 위에서 설명한 대로 miniconda를 설치해야 합니다.
+
+> **주의사항**: VS Code의 컨테이너에서 리포지토리를 다시 열 것을 제안하는 경우, 이를 거부해야 로컬 Python 설치를 사용할 수 있습니다.
+
+### 브라우저에서 Jupyter 사용
+
+내 컴퓨터의 브라우저에서 바로 Jupyter 환경을 사용할 수도 있습니다. 실제로 클래식 Jupyter와 Jupyer Hub 모두 자동 완성, 코드 하이라이팅 등 상당히 편리한 개발 환경을 제공합니다.
+
+로컬에서 Jupyter를 시작하려면 코스의 디렉토리로 이동하여 실행하면 됩니다:
+
+```bash
+jupyter notebook
+```
+
+혹은
+
+```bash
+jupyterhub
+```
+
+그런 다음 원하는 `.ipynb` 파일을 열고 작업을 시작할 수 있습니다.
+
