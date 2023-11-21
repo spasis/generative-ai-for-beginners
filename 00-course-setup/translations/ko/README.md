@@ -92,3 +92,46 @@ jupyterhub
 
 그런 다음 원하는 `.ipynb` 파일을 열고 작업을 시작할 수 있습니다.
 
+### 컨테이너에서 실행
+
+파이썬 설치의 대안은 컨테이너에서 코드를 실행하는 것입니다. 본 리포지토리에는 리포지토리에 컨테이너를 빌드하는 방법을 알려주는 특수한 `.devcontainer` 폴더가 있으므로, VS Code는 컨테이너에서 코드를 다시 열도록 제안할 것입니다. 이 경우 Docker 설치가 필요하고 더 복잡해지므로 숙련된 사용자에게만 권장합니다.
+
+GitHub Codespaces를 사용할 때 API 키를 안전하게 유지하는 가장 좋은 방법 중 하나는 Codespace Secrets을 사용하는 것입니다. Codespace의 Secrets을 관리하는 방법은 [본 가이드](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst)를 참조하세요.
+
+## 본 강좌에서 제공되는 수업과 기술적 요구 사항
+
+이 과정은 6개의 개념 수업과 6개의 코딩 수업으로 구성되어 있습니다.
+
+코딩 수업에서는 Azure OpenAI 서비스를 사용합니다. 이 코드를 실행하려면 Azure OpenAI 서비스에 대한 액세스 권한과 API 키가 필요합니다. [신청서](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu&culture=en-us&country=us&WT.mc_id=academic-105485-koreyst)를 작성하여 액세스 권한을 신청할 수 있습니다.
+
+신청서가 처리될 때까지 기다리는 동안 각 코딩 수업에는 코드와 출력을 볼 수 있는 `README.md` 파일도 포함되어 있습니다.
+
+## 처음으로 Azure OpenAI 서비스 사용
+
+Azure OpenAI 서비스를 처음 사용하는 경우 [이 가이드](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst)에서 Azure OpenAI 서비스 리소스를 만들고 배포하는 방법을 참조하세요.
+
+## 다른 학습자 만나기
+
+우리는 공식 [AI 커뮤니티 디스코드 서버](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)에 다른 학습자들과 만날 수 있는 채널을 만들었습니다. 같은 생각을 가진 다른 기업가, 빌더, 학생, 그리고 생성형 AI 지식 수준을 높이려는 모든 사람과 네트워크를 형성할 수 있는 좋은 방법입니다.
+
+[![Join discord channel](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
+
+프로젝트 팀도 이 Discord 서버에서 모든 학습자를 도울 것입니다.
+
+## 기여(Contribution)
+
+이 과정은 오픈소스 이니셔티브입니다. 개선할 부분이나 문제가 발견되면 [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst)를 만들거나 [Github issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst)를 기록해 주세요.
+
+프로젝트 팀에서 모든 기여를 추적할 것이며, 오픈소스에 기여하는 것은 생성형 AI 분야에서 경력을 쌓을 수 있는 훌륭한 방법입니다.
+
+기여를 제공하려면 대부분 기여자 라이선스 계약(CLA)에 동의해야 하며, 이를 통해 기여 내용을 사용할 수 있는 권리를 우리에게 부여할 수 있음을 선언합니다. 자세한 내용은 [CLA, 기여자 라이선스 계약](https://cla.microsoft.com?WT.mc_id=academic-105485-koreyst) 웹사이트를 참조하세요.
+
+중요: 이 리포지토리에 있는 텍스트를 번역할 때는 기계 번역을 사용하지 마십시오. 커뮤니티를 통해 번역을 검증할 예정이므로 자신이 능숙한 언어로만 번역에 자원해 주세요.
+
+Pull Request를 제출하면 CLA 봇이 자동으로 CLA 제공 여부를 결정하고 PR을 적절하게 꾸밉니다(예: 레이블, 댓글). 봇이 제공하는 지침을 따르기만 하면 됩니다. CLA를 사용하는 모든 리포지토리에 대해 이 작업을 한 번만 수행하면 됩니다.
+
+이 프로젝트는 Microsoft 오픈 소스 행동 강령을 채택했습니다. 자세한 내용은 행동 강령 FAQ를 참조하거나 추가 질문이나 의견이 있는 경우 [오픈코드](opencode@microsoft.com)에 이메일로 문의하세요.
+
+## 자 이제 시작해 봅시다
+
+이제 이 과정을 성공적으로 이수하는 데 필요한 단계를 완료했으므로 이제 [생성형 AI와 LLM의 개요](../../../01-introduction-to-genai/README.md?WT.mc_id=academic-105485-koreyst)로 시작해 보겠습니다.
